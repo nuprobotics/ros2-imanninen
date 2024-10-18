@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/task01/task01.egg-info
+writing ../../build/task01/task01.egg-info/PKG-INFO
+writing dependency_links to ../../build/task01/task01.egg-info/dependency_links.txt
+writing entry points to ../../build/task01/task01.egg-info/entry_points.txt
+writing requirements to ../../build/task01/task01.egg-info/requires.txt
+writing top-level names to ../../build/task01/task01.egg-info/top_level.txt
+writing manifest file '../../build/task01/task01.egg-info/SOURCES.txt'
+reading manifest file '../../build/task01/task01.egg-info/SOURCES.txt'
+writing manifest file '../../build/task01/task01.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/Practice02/build/task01/build
+creating /workspace/Practice02/build/task01/build/lib
+creating /workspace/Practice02/build/task01/build/lib/task01
+copying task01/receiver.py -> /workspace/Practice02/build/task01/build/lib/task01
+copying task01/__init__.py -> /workspace/Practice02/build/task01/build/lib/task01
+running install
+running install_lib
+creating /workspace/Practice02/install/task01/lib/python3.10/site-packages/task01
+copying /workspace/Practice02/build/task01/build/lib/task01/receiver.py -> /workspace/Practice02/install/task01/lib/python3.10/site-packages/task01
+copying /workspace/Practice02/build/task01/build/lib/task01/__init__.py -> /workspace/Practice02/install/task01/lib/python3.10/site-packages/task01
+byte-compiling /workspace/Practice02/install/task01/lib/python3.10/site-packages/task01/receiver.py to receiver.cpython-310.pyc
+byte-compiling /workspace/Practice02/install/task01/lib/python3.10/site-packages/task01/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /workspace/Practice02/install/task01/share/ament_index
+creating /workspace/Practice02/install/task01/share/ament_index/resource_index
+creating /workspace/Practice02/install/task01/share/ament_index/resource_index/packages
+copying resource/task01 -> /workspace/Practice02/install/task01/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/Practice02/install/task01/share/task01
+creating /workspace/Practice02/install/task01/share/task01/launch
+copying launch/task01.launch -> /workspace/Practice02/install/task01/share/task01/launch
+running install_egg_info
+Copying ../../build/task01/task01.egg-info to /workspace/Practice02/install/task01/lib/python3.10/site-packages/task01-0.0.0-py3.10.egg-info
+running install_scripts
+Installing receiver script to /workspace/Practice02/install/task01/lib/task01
+writing list of installed files to '/workspace/Practice02/build/task01/install.log'
