@@ -1,0 +1,10 @@
+<launch>
+    <arg name="text" default="Hello, ROS2!"> </arg>
+    <node
+        pkg="task02"
+        exec="sender"
+        output="screen">
+        <param name="text" value="$(var text)"/>
+        <param from="$(find-pkg-share task02)/config/task02.yaml"/>
+    </node>
+</launch>

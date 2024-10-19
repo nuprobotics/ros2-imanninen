@@ -1,0 +1,5 @@
+  File "/workspace/Practice02/install/task02/lib/python3.10/site-packages/task02/task02_node.py", line 35
+    Get command-line parameters
+        ^^^^^^^
+SyntaxError: invalid syntax
+

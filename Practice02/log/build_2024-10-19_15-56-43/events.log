@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.000586] (task01) JobQueued: {'identifier': 'task01', 'dependencies': OrderedDict()}
+[0.001130] (task02) JobQueued: {'identifier': 'task02', 'dependencies': OrderedDict()}
+[0.001409] (task01) JobStarted: {'identifier': 'task01'}
+[0.097592] (-) TimerEvent: {}
+[0.102643] (task02) JobStarted: {'identifier': 'task02'}
+[0.197837] (-) TimerEvent: {}
+[0.299014] (-) TimerEvent: {}
+[0.399964] (-) TimerEvent: {}
+[0.501713] (-) TimerEvent: {}
+[0.603017] (-) TimerEvent: {}
+[0.704510] (-) TimerEvent: {}
+[0.805451] (-) TimerEvent: {}
+[0.906120] (-) TimerEvent: {}
+[1.006768] (-) TimerEvent: {}
+[1.117464] (-) TimerEvent: {}
+[1.218763] (-) TimerEvent: {}
+[1.319969] (-) TimerEvent: {}
+[1.420806] (-) TimerEvent: {}
+[1.521773] (-) TimerEvent: {}
+[1.622890] (-) TimerEvent: {}
+[1.723823] (-) TimerEvent: {}
+[1.824946] (-) TimerEvent: {}
+[1.926185] (-) TimerEvent: {}
+[2.027072] (-) TimerEvent: {}
+[2.128338] (-) TimerEvent: {}
+[2.229480] (-) TimerEvent: {}
+[2.330394] (-) TimerEvent: {}
+[2.431362] (-) TimerEvent: {}
+[2.532507] (-) TimerEvent: {}
+[2.633942] (-) TimerEvent: {}
+[2.735200] (-) TimerEvent: {}
+[2.836413] (-) TimerEvent: {}
+[2.937412] (-) TimerEvent: {}
+[3.038455] (-) TimerEvent: {}
+[3.139426] (-) TimerEvent: {}
+[3.240121] (-) TimerEvent: {}
+[3.340626] (-) TimerEvent: {}
+[3.441104] (-) TimerEvent: {}
+[3.541626] (-) TimerEvent: {}
+[3.642185] (-) TimerEvent: {}
+[3.743503] (-) TimerEvent: {}
+[3.844454] (-) TimerEvent: {}
+[3.945175] (-) TimerEvent: {}
+[4.045840] (-) TimerEvent: {}
+[4.146515] (-) TimerEvent: {}
+[4.247162] (-) TimerEvent: {}
+[4.347869] (-) TimerEvent: {}
+[4.448627] (-) TimerEvent: {}
+[4.524904] (task01) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task01', 'build', '--build-base', '/workspace/Practice02/build/task01/build', 'install', '--record', '/workspace/Practice02/build/task01/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/Practice02/src/task01', 'env': {'HOSTNAME': '7837087b52de', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/root', 'OLDPWD': '/workspace/Practice02/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/Practice02/install', 'ROS_DISTRO': 'iron', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/workspace/Practice02/install/task01:/opt/ros/iron', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/Practice02/build/task01', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/Practice02/build/task01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/Practice02/install/task01/lib/python3.10/site-packages:/workspace/Practice02/install/task01/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[4.550519] (-) TimerEvent: {}
+[4.651156] (-) TimerEvent: {}
+[4.752194] (-) TimerEvent: {}
+[4.853059] (-) TimerEvent: {}
+[4.922861] (task02) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task02', 'build', '--build-base', '/workspace/Practice02/build/task02/build', 'install', '--record', '/workspace/Practice02/build/task02/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/Practice02/src/task02', 'env': {'HOSTNAME': '7837087b52de', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/root', 'OLDPWD': '/workspace/Practice02/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/Practice02/install', 'ROS_DISTRO': 'iron', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/workspace/Practice02/install/task01:/opt/ros/iron', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/Practice02/build/task02', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/Practice02/build/task02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/Practice02/install/task02/lib/python3.10/site-packages:/workspace/Practice02/install/task01/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[4.953165] (-) TimerEvent: {}
+[5.053832] (-) TimerEvent: {}
+[5.154538] (-) TimerEvent: {}
+[5.255318] (-) TimerEvent: {}
+[5.355964] (-) TimerEvent: {}
+[5.456656] (-) TimerEvent: {}
+[5.506400] (task01) StdoutLine: {'line': b'running egg_info\n'}
+[5.511787] (task01) StdoutLine: {'line': b'writing ../../build/task01/task01.egg-info/PKG-INFO\n'}
+[5.523320] (task01) StdoutLine: {'line': b'writing dependency_links to ../../build/task01/task01.egg-info/dependency_links.txt\n'}
+[5.539668] (task01) StdoutLine: {'line': b'writing entry points to ../../build/task01/task01.egg-info/entry_points.txt\n'}
+[5.550576] (task01) StdoutLine: {'line': b'writing requirements to ../../build/task01/task01.egg-info/requires.txt\n'}
+[5.556073] (task01) StdoutLine: {'line': b'writing top-level names to ../../build/task01/task01.egg-info/top_level.txt\n'}
+[5.558809] (-) TimerEvent: {}
+[5.643964] (task01) StdoutLine: {'line': b"reading manifest file '../../build/task01/task01.egg-info/SOURCES.txt'\n"}
+[5.659021] (-) TimerEvent: {}
+[5.760039] (-) TimerEvent: {}
+[5.861216] (-) TimerEvent: {}
+[5.898217] (task01) StdoutLine: {'line': b"writing manifest file '../../build/task01/task01.egg-info/SOURCES.txt'\n"}
+[5.910006] (task01) StdoutLine: {'line': b'running build\n'}
+[5.911481] (task01) StdoutLine: {'line': b'running build_py\n'}
+[5.956449] (task01) StdoutLine: {'line': b'running install\n'}
+[5.957791] (task01) StdoutLine: {'line': b'running install_lib\n'}
+[5.961341] (-) TimerEvent: {}
+[6.062062] (-) TimerEvent: {}
+[6.098934] (task01) StdoutLine: {'line': b'running install_data\n'}
+[6.150947] (task01) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.163003] (-) TimerEvent: {}
+[6.173220] (task01) StdoutLine: {'line': b"removing '/workspace/Practice02/install/task01/lib/python3.10/site-packages/task01-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.263273] (-) TimerEvent: {}
+[6.297825] (task01) StdoutLine: {'line': b'Copying ../../build/task01/task01.egg-info to /workspace/Practice02/install/task01/lib/python3.10/site-packages/task01-0.0.0-py3.10.egg-info\n'}
+[6.363636] (-) TimerEvent: {}
+[6.465138] (-) TimerEvent: {}
+[6.566749] (-) TimerEvent: {}
+[6.668055] (-) TimerEvent: {}
+[6.769013] (-) TimerEvent: {}
+[6.810564] (task02) StdoutLine: {'line': b'running egg_info\n'}
+[6.821221] (task02) StdoutLine: {'line': b'writing ../../build/task02/task02.egg-info/PKG-INFO\n'}
+[6.844628] (task02) StdoutLine: {'line': b'writing dependency_links to ../../build/task02/task02.egg-info/dependency_links.txt\n'}
+[6.869164] (-) TimerEvent: {}
+[6.870049] (task02) StdoutLine: {'line': b'writing entry points to ../../build/task02/task02.egg-info/entry_points.txt\n'}
+[6.887236] (task02) StdoutLine: {'line': b'writing requirements to ../../build/task02/task02.egg-info/requires.txt\n'}
+[6.898884] (task02) StdoutLine: {'line': b'writing top-level names to ../../build/task02/task02.egg-info/top_level.txt\n'}
+[6.969410] (-) TimerEvent: {}
+[6.982642] (task02) StdoutLine: {'line': b"reading manifest file '../../build/task02/task02.egg-info/SOURCES.txt'\n"}
+[7.067640] (task01) StdoutLine: {'line': b'running install_scripts\n'}
+[7.069514] (-) TimerEvent: {}
+[7.082067] (task02) StdoutLine: {'line': b"writing manifest file '../../build/task02/task02.egg-info/SOURCES.txt'\n"}
+[7.093252] (task02) StdoutLine: {'line': b'running build\n'}
+[7.094320] (task02) StdoutLine: {'line': b'running build_py\n'}
+[7.103794] (task02) StdoutLine: {'line': b'copying task02/task02_node.py -> /workspace/Practice02/build/task02/build/lib/task02\n'}
+[7.154909] (task01) StdoutLine: {'line': b'Installing receiver script to /workspace/Practice02/install/task01/lib/task01\n'}
+[7.161221] (task02) StdoutLine: {'line': b'running install\n'}
+[7.162796] (task02) StdoutLine: {'line': b'running install_lib\n'}
+[7.169632] (-) TimerEvent: {}
+[7.174747] (task01) StdoutLine: {'line': b"writing list of installed files to '/workspace/Practice02/build/task01/install.log'\n"}
+[7.203982] (task01) CommandEnded: {'returncode': 0}
+[7.211762] (task02) StdoutLine: {'line': b'copying /workspace/Practice02/build/task02/build/lib/task02/task02_node.py -> /workspace/Practice02/install/task02/lib/python3.10/site-packages/task02\n'}
+[7.269772] (-) TimerEvent: {}
+[7.285397] (task02) StdoutLine: {'line': b'byte-compiling /workspace/Practice02/install/task02/lib/python3.10/site-packages/task02/task02_node.py to task02_node.cpython-310.pyc\n'}
+[7.340635] (task02) StdoutLine: {'line': b'running install_data\n'}
+[7.369942] (-) TimerEvent: {}
+[7.394167] (task02) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.411982] (task02) StdoutLine: {'line': b"removing '/workspace/Practice02/install/task02/lib/python3.10/site-packages/task02-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.470123] (-) TimerEvent: {}
+[7.490642] (task02) StdoutLine: {'line': b'Copying ../../build/task02/task02.egg-info to /workspace/Practice02/install/task02/lib/python3.10/site-packages/task02-0.0.0-py3.10.egg-info\n'}
+[7.553444] (task01) JobEnded: {'identifier': 'task01', 'rc': 0}
+[7.570235] (-) TimerEvent: {}
+[7.671126] (-) TimerEvent: {}
+[7.773213] (-) TimerEvent: {}
+[7.874496] (-) TimerEvent: {}
+[7.975926] (-) TimerEvent: {}
+[8.077073] (-) TimerEvent: {}
+[8.178191] (-) TimerEvent: {}
+[8.279424] (-) TimerEvent: {}
+[8.380425] (-) TimerEvent: {}
+[8.481567] (-) TimerEvent: {}
+[8.516355] (task02) StdoutLine: {'line': b'running install_scripts\n'}
+[8.581923] (-) TimerEvent: {}
+[8.682997] (-) TimerEvent: {}
+[8.784172] (-) TimerEvent: {}
+[8.830781] (task02) StdoutLine: {'line': b'Installing sender script to /workspace/Practice02/install/task02/lib/task02\n'}
+[8.884527] (-) TimerEvent: {}
+[8.887484] (task02) StdoutLine: {'line': b"writing list of installed files to '/workspace/Practice02/build/task02/install.log'\n"}
+[8.930491] (task02) CommandEnded: {'returncode': 0}
+[8.984784] (-) TimerEvent: {}
+[9.085960] (-) TimerEvent: {}
+[9.187040] (-) TimerEvent: {}
+[9.288246] (-) TimerEvent: {}
+[9.389089] (-) TimerEvent: {}
+[9.490184] (-) TimerEvent: {}
+[9.591328] (-) TimerEvent: {}
+[9.692356] (-) TimerEvent: {}
+[9.793579] (-) TimerEvent: {}
+[9.894622] (-) TimerEvent: {}
+[9.995930] (-) TimerEvent: {}
+[10.097136] (-) TimerEvent: {}
+[10.108050] (task02) JobEnded: {'identifier': 'task02', 'rc': 0}
+[10.151129] (-) EventReactorShutdown: {}
