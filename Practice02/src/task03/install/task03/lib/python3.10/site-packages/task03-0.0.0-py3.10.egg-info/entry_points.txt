@@ -1,0 +1,3 @@
+[console_scripts]
+service = task03.my_service_node:main
+
