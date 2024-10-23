@@ -5,14 +5,13 @@ from std_srvs.srv import Trigger
 class MyService(Node):
     def __init__(self):
         super(MyService, self).__init__("my_service")
-        self.declare_parameter('service_name', '/trigger_service')
-        self.declare_parameter('default_string', 'No service available')
+        self.declare_parameter('service_name', '')
+        self.declare_parameter('default_string', '')
 
         self.service_name = self.get_parameter('service_name').get_parameter_value().string_value
         self.default_string = self.get_parameter('default_string').get_parameter_value().string_value
 
-        self.stored_string = ("default value"
-                              "")
+        self.stored_string = "default_value"
         self.client = self.create_client(Trigger, "/spgc/trigger")
 
         if not self.client.wait_for_service(1.0):

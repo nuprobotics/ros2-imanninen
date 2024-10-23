@@ -4,7 +4,6 @@
         exec="service"
         output="screen"
     >
-    <param name="service_name" value="aboba"/>
     <param from="$(find-pkg-share task03)/config/task03.yaml"/>
     </node>
 </launch>

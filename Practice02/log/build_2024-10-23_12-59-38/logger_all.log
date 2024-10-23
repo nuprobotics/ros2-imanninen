@@ -1,0 +1,240 @@
+[0.742s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.745s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fc0b49befe0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc0b49be8c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc0b49be8c0>>, mixin_verb=('build',))
+[1.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.326s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[1.329s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[1.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.333s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspace/Practice02'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/task01) by extensions ['ignore', 'ignore_ament_install']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/task01) by extension 'ignore'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/task01) by extension 'ignore_ament_install'
+[1.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/task01) by extensions ['colcon_pkg']
+[1.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/task01) by extension 'colcon_pkg'
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/task01) by extensions ['colcon_meta']
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/task01) by extension 'colcon_meta'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/task01) by extensions ['ros']
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/task01) by extension 'ros'
+[1.574s] DEBUG:colcon.colcon_core.package_identification:Package 'src/task01' with type 'ros.ament_python' and name 'task01'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/task02) by extensions ['ignore', 'ignore_ament_install']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/task02) by extension 'ignore'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/task02) by extension 'ignore_ament_install'
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/task02) by extensions ['colcon_pkg']
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/task02) by extension 'colcon_pkg'
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/task02) by extensions ['colcon_meta']
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/task02) by extension 'colcon_meta'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/task02) by extensions ['ros']
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/task02) by extension 'ros'
+[1.630s] DEBUG:colcon.colcon_core.package_identification:Package 'src/task02' with type 'ros.ament_python' and name 'task02'
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/task03) by extensions ['ignore', 'ignore_ament_install']
+[1.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/task03) by extension 'ignore'
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/task03) by extension 'ignore_ament_install'
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/task03) by extensions ['colcon_pkg']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/task03) by extension 'colcon_pkg'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/task03) by extensions ['colcon_meta']
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/task03) by extension 'colcon_meta'
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/task03) by extensions ['ros']
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/task03) by extension 'ros'
+[1.680s] DEBUG:colcon.colcon_core.package_identification:Package 'src/task03' with type 'ros.ament_python' and name 'task03'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/task04) by extensions ['ignore', 'ignore_ament_install']
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/task04) by extension 'ignore'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/task04) by extension 'ignore_ament_install'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/task04) by extensions ['colcon_pkg']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/task04) by extension 'colcon_pkg'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/task04) by extensions ['colcon_meta']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/task04) by extension 'colcon_meta'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/task04) by extensions ['ros']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/task04) by extension 'ros'
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/task04) by extensions ['cmake', 'python']
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/task04) by extension 'cmake'
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/task04) by extension 'python'
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/task04) by extensions ['python_setup_py']
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/task04) by extension 'python_setup_py'
+[1.718s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.866s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'cmake_args' from command line to 'None'
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'cmake_target' from command line to 'None'
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.868s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'cmake_clean_cache' from command line to 'False'
+[1.868s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'cmake_clean_first' from command line to 'False'
+[1.868s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'cmake_force_configure' from command line to 'False'
+[1.869s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'ament_cmake_args' from command line to 'None'
+[1.869s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'catkin_cmake_args' from command line to 'None'
+[1.869s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.870s] DEBUG:colcon.colcon_core.verb:Building package 'task01' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/Practice02/build/task01', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/Practice02/install/task01', 'merge_install': False, 'path': '/workspace/Practice02/src/task01', 'symlink_install': False, 'test_result_base': None}
+[1.871s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'cmake_args' from command line to 'None'
+[1.871s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'cmake_target' from command line to 'None'
+[1.871s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.872s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'cmake_clean_cache' from command line to 'False'
+[1.872s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'cmake_clean_first' from command line to 'False'
+[1.873s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'cmake_force_configure' from command line to 'False'
+[1.873s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'ament_cmake_args' from command line to 'None'
+[1.873s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'catkin_cmake_args' from command line to 'None'
+[1.874s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.874s] DEBUG:colcon.colcon_core.verb:Building package 'task02' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/Practice02/build/task02', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/Practice02/install/task02', 'merge_install': False, 'path': '/workspace/Practice02/src/task02', 'symlink_install': False, 'test_result_base': None}
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'cmake_args' from command line to 'None'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'cmake_target' from command line to 'None'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'cmake_clean_cache' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'cmake_clean_first' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'cmake_force_configure' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'ament_cmake_args' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'catkin_cmake_args' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.878s] DEBUG:colcon.colcon_core.verb:Building package 'task03' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/Practice02/build/task03', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/Practice02/install/task03', 'merge_install': False, 'path': '/workspace/Practice02/src/task03', 'symlink_install': False, 'test_result_base': None}
+[2.286s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.289s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.291s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/Practice02/src/task01' with build type 'ament_python'
+[2.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('task01', 'ament_prefix_path')
+[2.305s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Practice02/install/task01/share/task01/hook/ament_prefix_path.ps1'
+[2.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Practice02/install/task01/share/task01/hook/ament_prefix_path.dsv'
+[2.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Practice02/install/task01/share/task01/hook/ament_prefix_path.sh'
+[2.399s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.421s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/Practice02/src/task02' with build type 'ament_python'
+[2.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('task02', 'ament_prefix_path')
+[2.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Practice02/install/task02/share/task02/hook/ament_prefix_path.ps1'
+[2.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Practice02/install/task02/share/task02/hook/ament_prefix_path.dsv'
+[2.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Practice02/install/task02/share/task02/hook/ament_prefix_path.sh'
+[2.501s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.501s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.518s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/Practice02/src/task03' with build type 'ament_python'
+[2.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('task03', 'ament_prefix_path')
+[2.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Practice02/install/task03/share/task03/hook/ament_prefix_path.ps1'
+[2.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Practice02/install/task03/share/task03/hook/ament_prefix_path.dsv'
+[2.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Practice02/install/task03/share/task03/hook/ament_prefix_path.sh'
+[2.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.604s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.631s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/Practice02/src/task01'
+[3.632s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.632s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.009s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/Practice02/src/task02'
+[6.010s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.010s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.311s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/Practice02/src/task03'
+[6.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Practice02/src/task02': PYTHONPATH=/workspace/Practice02/build/task02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/Practice02/install/task02/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task02 build --build-base /workspace/Practice02/build/task02/build install --record /workspace/Practice02/build/task02/install.log --single-version-externally-managed install_data
+[8.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Practice02/src/task01': PYTHONPATH=/workspace/Practice02/build/task01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/Practice02/install/task01/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task01 build --build-base /workspace/Practice02/build/task01/build install --record /workspace/Practice02/build/task01/install.log --single-version-externally-managed install_data
+[8.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Practice02/src/task03': PYTHONPATH=/workspace/Practice02/build/task03/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/Practice02/install/task03/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task03 build --build-base /workspace/Practice02/build/task03/build install --record /workspace/Practice02/build/task03/install.log --single-version-externally-managed install_data
+[11.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Practice02/src/task02' returned '0': PYTHONPATH=/workspace/Practice02/build/task02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/Practice02/install/task02/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task02 build --build-base /workspace/Practice02/build/task02/build install --record /workspace/Practice02/build/task02/install.log --single-version-externally-managed install_data
+[11.266s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task02' for CMake module files
+[11.358s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task02' for CMake config files
+[11.529s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task02/lib'
+[11.536s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task02/bin'
+[11.538s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task02/lib/pkgconfig/task02.pc'
+[11.540s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task02/lib/python3.10/site-packages'
+[11.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('task02', 'pythonpath')
+[11.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Practice02/install/task02/share/task02/hook/pythonpath.ps1'
+[11.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Practice02/install/task02/share/task02/hook/pythonpath.dsv'
+[11.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Practice02/install/task02/share/task02/hook/pythonpath.sh'
+[11.613s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task02/bin'
+[11.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task02)
+[11.616s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Practice02/install/task02/share/task02/package.ps1'
+[11.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Practice02/install/task02/share/task02/package.dsv'
+[11.655s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Practice02/install/task02/share/task02/package.sh'
+[11.674s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Practice02/install/task02/share/task02/package.bash'
+[11.697s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Practice02/install/task02/share/task02/package.zsh'
+[11.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Practice02/install/task02/share/colcon-core/packages/task02)
+[11.740s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task01' for CMake module files
+[11.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Practice02/src/task01' returned '0': PYTHONPATH=/workspace/Practice02/build/task01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/Practice02/install/task01/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task01 build --build-base /workspace/Practice02/build/task01/build install --record /workspace/Practice02/build/task01/install.log --single-version-externally-managed install_data
+[11.842s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task01' for CMake config files
+[11.987s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task01/lib'
+[11.994s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task01/bin'
+[11.996s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task01/lib/pkgconfig/task01.pc'
+[11.999s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task01/lib/python3.10/site-packages'
+[12.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('task01', 'pythonpath')
+[12.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Practice02/install/task01/share/task01/hook/pythonpath.ps1'
+[12.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Practice02/install/task01/share/task01/hook/pythonpath.dsv'
+[12.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Practice02/install/task01/share/task01/hook/pythonpath.sh'
+[12.087s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task01/bin'
+[12.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task01)
+[12.092s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Practice02/install/task01/share/task01/package.ps1'
+[12.120s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Practice02/install/task01/share/task01/package.dsv'
+[12.153s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Practice02/install/task01/share/task01/package.sh'
+[12.186s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Practice02/install/task01/share/task01/package.bash'
+[12.217s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Practice02/install/task01/share/task01/package.zsh'
+[12.251s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Practice02/install/task01/share/colcon-core/packages/task01)
+[12.274s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task03' for CMake module files
+[12.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Practice02/src/task03' returned '0': PYTHONPATH=/workspace/Practice02/build/task03/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/Practice02/install/task03/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task03 build --build-base /workspace/Practice02/build/task03/build install --record /workspace/Practice02/build/task03/install.log --single-version-externally-managed install_data
+[12.424s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task03' for CMake config files
+[12.701s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task03/lib'
+[12.713s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task03/bin'
+[12.716s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task03/lib/pkgconfig/task03.pc'
+[12.722s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task03/lib/python3.10/site-packages'
+[12.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('task03', 'pythonpath')
+[12.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Practice02/install/task03/share/task03/hook/pythonpath.ps1'
+[12.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Practice02/install/task03/share/task03/hook/pythonpath.dsv'
+[12.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Practice02/install/task03/share/task03/hook/pythonpath.sh'
+[12.840s] Level 1:colcon.colcon_core.environment:checking '/workspace/Practice02/install/task03/bin'
+[12.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task03)
+[12.845s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Practice02/install/task03/share/task03/package.ps1'
+[12.877s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Practice02/install/task03/share/task03/package.dsv'
+[12.902s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Practice02/install/task03/share/task03/package.sh'
+[12.928s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Practice02/install/task03/share/task03/package.bash'
+[12.955s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Practice02/install/task03/share/task03/package.zsh'
+[12.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Practice02/install/task03/share/colcon-core/packages/task03)
+[13.003s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.005s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.005s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.006s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.058s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[13.059s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.059s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.060s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.061s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[13.062s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.063s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/Practice02/install/local_setup.ps1'
+[13.078s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/Practice02/install/_local_setup_util_ps1.py'
+[13.092s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/Practice02/install/setup.ps1'
+[13.110s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/Practice02/install/local_setup.sh'
+[13.125s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/Practice02/install/_local_setup_util_sh.py'
+[13.144s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/Practice02/install/setup.sh'
+[13.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/Practice02/install/local_setup.bash'
+[13.173s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/Practice02/install/setup.bash'
+[13.187s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/Practice02/install/local_setup.zsh'
+[13.201s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/Practice02/install/setup.zsh'
