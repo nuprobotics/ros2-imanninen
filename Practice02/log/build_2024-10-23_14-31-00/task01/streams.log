@@ -1,0 +1,39 @@
+[4.459s] Invoking command in '/workspace/Practice02/src/task01': PYTHONPATH=/workspace/Practice02/build/task01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/Practice02/install/task01/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task01 build --build-base /workspace/Practice02/build/task01/build install --record /workspace/Practice02/build/task01/install.log --single-version-externally-managed install_data
+[5.290s] running egg_info
+[5.302s] creating ../../build/task01/task01.egg-info
+[5.305s] writing ../../build/task01/task01.egg-info/PKG-INFO
+[5.316s] writing dependency_links to ../../build/task01/task01.egg-info/dependency_links.txt
+[5.323s] writing entry points to ../../build/task01/task01.egg-info/entry_points.txt
+[5.328s] writing requirements to ../../build/task01/task01.egg-info/requires.txt
+[5.335s] writing top-level names to ../../build/task01/task01.egg-info/top_level.txt
+[5.345s] writing manifest file '../../build/task01/task01.egg-info/SOURCES.txt'
+[5.395s] reading manifest file '../../build/task01/task01.egg-info/SOURCES.txt'
+[5.460s] writing manifest file '../../build/task01/task01.egg-info/SOURCES.txt'
+[5.464s] running build
+[5.465s] running build_py
+[5.470s] creating /workspace/Practice02/build/task01/build
+[5.473s] creating /workspace/Practice02/build/task01/build/lib
+[5.476s] creating /workspace/Practice02/build/task01/build/lib/task01
+[5.489s] copying task01/receiver.py -> /workspace/Practice02/build/task01/build/lib/task01
+[5.528s] copying task01/__init__.py -> /workspace/Practice02/build/task01/build/lib/task01
+[5.547s] running install
+[5.550s] running install_lib
+[5.581s] creating /workspace/Practice02/install/task01/lib/python3.10/site-packages/task01
+[5.604s] copying /workspace/Practice02/build/task01/build/lib/task01/receiver.py -> /workspace/Practice02/install/task01/lib/python3.10/site-packages/task01
+[5.652s] copying /workspace/Practice02/build/task01/build/lib/task01/__init__.py -> /workspace/Practice02/install/task01/lib/python3.10/site-packages/task01
+[5.696s] byte-compiling /workspace/Practice02/install/task01/lib/python3.10/site-packages/task01/receiver.py to receiver.cpython-310.pyc
+[5.758s] byte-compiling /workspace/Practice02/install/task01/lib/python3.10/site-packages/task01/__init__.py to __init__.cpython-310.pyc
+[5.824s] running install_data
+[5.832s] creating /workspace/Practice02/install/task01/share/ament_index
+[5.835s] creating /workspace/Practice02/install/task01/share/ament_index/resource_index
+[5.839s] creating /workspace/Practice02/install/task01/share/ament_index/resource_index/packages
+[5.856s] copying resource/task01 -> /workspace/Practice02/install/task01/share/ament_index/resource_index/packages
+[5.894s] copying package.xml -> /workspace/Practice02/install/task01/share/task01
+[5.919s] creating /workspace/Practice02/install/task01/share/task01/launch
+[5.938s] copying launch/task01.launch -> /workspace/Practice02/install/task01/share/task01/launch
+[5.997s] running install_egg_info
+[6.047s] Copying ../../build/task01/task01.egg-info to /workspace/Practice02/install/task01/lib/python3.10/site-packages/task01-0.0.0-py3.10.egg-info
+[6.968s] running install_scripts
+[7.079s] Installing receiver script to /workspace/Practice02/install/task01/lib/task01
+[7.095s] writing list of installed files to '/workspace/Practice02/build/task01/install.log'
+[7.127s] Invoked command in '/workspace/Practice02/src/task01' returned '0': PYTHONPATH=/workspace/Practice02/build/task01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/Practice02/install/task01/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task01 build --build-base /workspace/Practice02/build/task01/build install --record /workspace/Practice02/build/task01/install.log --single-version-externally-managed install_data
